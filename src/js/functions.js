@@ -134,12 +134,12 @@ export const renderContent = path => {
   getUserData().then(data => {
     getHeader();
     getFooter();
-    if (path === '/' + location.hash || path === "/shop-from-future/") {
+    if (path === '/' + location.hash || path === '/Shop-from-future-team-js/') {
       getMainPage().then(() => {
         if (hashArr.length > 1) {
-          console.log(hashArr)
-          renderModals.cardOneGood(hashArr[0], hashArr[1])
-          return false
+          console.log(hashArr);
+          renderModals.cardOneGood(hashArr[0], hashArr[1]);
+          return false;
         }
       });
     }
