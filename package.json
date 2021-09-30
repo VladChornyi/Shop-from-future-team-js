@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://VladChornyi.github.io/",
+  "homepage": "https://VladChornyi.github.io/Shop-from-future-team-js",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /"
+    "build": "parcel build src/*.html --public-url /Shop-from-future-team-js/"
   },
   "repository": {
     "type": "git",
